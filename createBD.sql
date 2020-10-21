@@ -1,4 +1,14 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<php
 $sql = "CREATE DATABASE myDB";
 if ($conn->query($sql) === TRUE) {
     echo "Database created successfully";
@@ -8,3 +18,5 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+</body>
+</html> 
